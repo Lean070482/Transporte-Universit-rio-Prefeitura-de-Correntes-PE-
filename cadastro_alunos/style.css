@@ -1,0 +1,183 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background: #f2f2f2;
+}
+
+.topo {
+    background: #1f7a4f;
+    color: white;
+    padding: 15px;
+    text-align: center;
+}
+
+.menu {
+    background: #155f3d;
+    padding: 10px;
+    text-align: center;
+}
+
+.menu button {
+    background: #1f7a4f;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    margin: 5px;
+    cursor: pointer;
+}
+
+.aba {
+    display: none;
+    padding: 20px;
+}
+form input,
+form select,
+form button {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+form button {
+    background: #1f7a4f;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+#statusConteudo {
+    background: white;
+    padding: 20px;
+    border-radius: 6px;
+    margin-top: 15px;
+}
+button {
+    padding: 6px 10px;
+    cursor: pointer;
+}
+
+select {
+    padding: 5px;
+}
+.login-box {
+    max-width: 300px;
+    margin: auto;
+    background: white;
+    padding: 20px;
+    border-radius: 6px;
+}
+
+.login-box input {
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 8px;
+}
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background: #f2f4f7;
+    color: #333;
+}
+
+/* TOPO */
+.topo {
+    background: #0a4ea3;
+    color: white;
+    padding: 20px;
+}
+
+.topo-conteudo {
+    max-width: 1000px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.logo {
+    height: 70px;
+}
+
+.topo h1 {
+    margin: 0;
+    font-size: 22px;
+}
+
+.topo p {
+    margin: 4px 0 0;
+    font-size: 14px;
+}
+
+/* CONTEÚDO */
+.container {
+    max-width: 900px;
+    margin: 30px auto;
+    padding: 0 15px;
+}
+
+.card {
+    background: white;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.card h2 {
+    color: #0a4ea3;
+    margin-top: 0;
+}
+
+.card ul {
+    margin: 20px 0;
+    padding-left: 20px;
+}
+
+.card li {
+    margin-bottom: 8px;
+}
+
+/* ALERTA */
+.alerta {
+    background: #fff3cd;
+    border-left: 5px solid #ffc107;
+    padding: 12px;
+    margin: 20px 0;
+    font-size: 14px;
+}
+
+/* BOTÃO */
+.btn-cadastro {
+    display: block;
+    text-align: center;
+    background: #198754;
+    color: white;
+    text-decoration: none;
+    padding: 15px;
+    border-radius: 6px;
+    font-weight: bold;
+    margin: 25px 0;
+    transition: background 0.3s;
+}
+
+.btn-cadastro:hover {
+    background: #157347;
+}
+
+/* OBS */
+.obs {
+    font-size: 13px;
+    color: #666;
+    text-align: center;
+}
+
+/* RODAPÉ */
+.rodape {
+    text-align: center;
+    padding: 15px;
+    font-size: 12px;
+    color: #777;
+}
